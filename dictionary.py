@@ -18,7 +18,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 if __name__== '__main__':
 	app = QApplication(sys.argv)
 	frame = MainWindow()
-	textEdit = vb.meaning(lineEdit)
+
 	frame.show()
 	sys.exit( app.exec_() )
 
